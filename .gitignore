@@ -1,0 +1,48 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Build outputs
+dist
+build
+server/public
+
+# Development environment
+.cache
+.local
+.upm
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Replit specific
+generated-icon.png
+.replit
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+vite.config.ts.*
+
+# Temporary files
+*.tar.gz
+*.zip
+
+# Assets not needed for the project
+attached_assets
